@@ -1,0 +1,15 @@
+//
+//  ZhiJianDetailViewController.h
+//  FeijiuOA
+//
+//  Created by imac-1 on 2018/2/6.
+//  Copyright © 2018年 魏艳丽. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "NewZhiJianListModel.h"
+
+@interface ZhiJianDetailViewController : UIViewController
+@property(strong,nonatomic)NewZhiJianListModel *model;
+
+@end
